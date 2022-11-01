@@ -1,0 +1,290 @@
+.body {
+  font-family: "Roboto", sans-serif;
+  background: #ffffff;
+}
+
+ul {
+  list-style: none;
+}
+
+/*-------------header---------*/
+
+.header {
+}
+
+.logo {
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo-web {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+.nav {
+}
+.nav-item {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.nav-item:hover,
+.nav-item:focus {
+  color: #2196f3;
+}
+
+.header-email {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 11.14x;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.header-tel {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 11.14x;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.header-email:hover,
+.header-email:focus {
+  color: #2196f3;
+}
+
+.header-tel:hover,
+.header-tel:focus {
+  color: #2196f3;
+}
+
+/*-------------hero---------*/
+
+.hero {
+  background: #2f303a;
+}
+.hero-h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  border: none;
+  cursor: pointer;
+}
+
+/*-------------about---------*/
+
+.about {
+}
+.about-list {
+}
+.about-list-li {
+}
+.about-list-h {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.about-p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*-------------about---------*/
+
+.what {
+}
+.what-h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.what-ul {
+}
+.what-item {
+}
+.what-img {
+}
+
+/*-------------Team---------*/
+
+.team {
+  background: #f5f4fa;
+}
+.team-h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-ul {
+}
+.team-item {
+}
+.team-img {
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.team-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*-------------Footer---------*/
+
+.footer {
+  background: #2f303a;
+}
+
+.footer-adress {
+}
+.footer-maps {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-maps:hover,
+.footer-maps:focus {
+  color: #2196f3;
+}
+
+.footer-email {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71x;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer-email:hover,
+.footer-email:focus {
+  color: #2196f3;
+}
+
+.footer-tel {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+  color: #2196f3;
+}
+
+/*-------------Portfolio---------*/
+/*--------------Filter---------*/
+
+.portfolio-h1 {
+  visibility: hidden;
+}
+.filter {
+}
+.filter-h2 {
+  visibility: hidden;
+}
+
+.filter-ul {
+}
+
+.filter-item {
+}
+.filter-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-decoration: none;
+}
+/* Це тимчасово. Колір має мінятись 
+на білий а прямокутник на синій */
+.filter-link:hover,
+.filter-link:focus {
+  color: #2196f3;
+}
+
+/*----------------porfolio---------------*/
+
+.portfolio {
+}
+.porfolio-ul {
+}
+.porfolio-item {
+}
+.portfolio-img {
+}
+
+.portfolio-h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.portfolio-p {
+  font-size: 16px;
+  line-height: 1, 875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
